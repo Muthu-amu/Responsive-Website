@@ -1,0 +1,796 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* --------------------------------------------topbar------------------------------------------- */
+
+.container1 {
+    background-color: #ED1944;
+    padding: 12px;
+
+}
+
+.head {
+    margin-left: 10px;
+}
+
+.column-left1 ul li {
+    list-style-type: none;
+}
+
+.column-left1 ul li a {
+    color: white;
+}
+
+
+.icons {
+    position: absolute;
+    left: 90%;
+    top: 5%;
+    word-spacing: 15px;
+}
+
+.fa-brands {
+    color: white;
+    transition: transform .4s;
+}
+
+.fa-facebook:hover {
+    color: #1A0DAB;
+    transform: scale(2);
+}
+
+.fa-instagram:hover {
+    color: #f00897;
+    transform: scale(2);
+}
+
+.fa-twitter:hover {
+    color: #2962FF;
+    transform: scale(2);
+}
+
+
+
+.fa-regular,
+.fa-sharp {
+    padding-right: 1%;
+
+}
+
+#mail {
+    border-radius: 10px;
+    border: 2px solid #8a8a8a;
+    transition: transform .4s;
+}
+
+#mail:hover {
+    transform: scale(1.2);
+}
+
+
+#mobile-no {
+    box-shadow: 4px 2px 4px 1px rgb(39, 228, 171);
+    transition: transform .4s;
+}
+
+#mobile-no:hover {
+    color: aquamarine;
+    transform: scale(2);
+}
+
+/* -----------------navbar------------------------------------ */
+.logo {
+    width: 100px;
+    height: 70px;
+}
+
+.navbar img {
+    position: absolute;
+    left: 6.5%;
+}
+
+.navbar {
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.navbar ul li {
+    /* z-index: -2; */
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 35px;
+}
+
+.navbar ul li a {
+    color: grey;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar ul li a:hover {
+    color: #ED1944;
+    transition: .4s;
+}
+
+.navbar {
+    box-shadow: 4px 2px 4px 1px rgba(220, 220, 220, 1);
+}
+
+
+/* -----------------Slider------------------------------------ */
+
+
+.container-slider{
+    margin-top:20px;
+    padding:0 30px;
+
+}
+
+
+.slider{
+    
+    width: 100%;
+    height: 70vh;
+    padding-bottom: 0px;
+
+}
+
+        
+#slideImg{
+    width: 100%;
+    height: 80%;
+     }
+        
+
+
+/* -----------------About Us------------------------------------ */
+.about-title{
+    color: black;
+    font-size: 36px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.about {
+    justify-content: center;
+    text-align: center;
+}
+
+.about-container{
+    margin-bottom: 15%;
+}
+
+
+.about-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-card1 {
+    width: 350px;
+    height: 290px;
+    padding: 30px 20px 30px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    margin: 15px;
+    position: relative;
+    text-align: center;
+    transition: .5s;
+}
+
+.about-card1:hover{
+    transform:scale(1.2);
+}
+
+
+.about-card1 .button {
+    background-color: #ED1944;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.about-card1 .button:hover {
+    background-color: transparent;
+    border: 2px solid #ED1944;
+    cursor: pointer;
+}
+
+.about-para p {
+    color: black;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+
+
+
+/* -----------------Services------------------------------------ */
+
+
+
+.service-title {
+    color: black;
+    font-size: 36px;
+    margin: 30px auto;
+    text-align: center;
+    position: relative;
+}
+
+.service-title::after {
+    content: "";
+    background: #ED1944;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 350px;
+    height: 278px;
+    padding: 30px 20px 30px 20px;
+    background: #848484;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    text-align: center;
+    transition: transform .4s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+.card i {
+    font-size: 60px;
+    display: block;
+    text-align: center;
+    margin: 0 0 20px 0;
+    color: white;
+
+}
+
+h5 {
+    color: black;
+    font-size: 15px;
+}
+
+.para p {
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.card .button {
+    background-color: #ED1944;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.card .button:hover {
+    background-color: transparent;
+    border: 2px solid darkgrey;
+    cursor: pointer;
+}
+
+.service-container{
+    margin-bottom: 15%;
+    margin-top: 80px;
+    padding:30px 0;
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+
+/* -----------------Gallery------------------------------------ */
+
+
+.gallery-container{
+    width: 80%;
+    margin: 60px auto 50px;
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+     }
+
+    .gallery-container img{
+    width: 100%;
+    cursor: pointer;
+    transition: 0.4s;
+     }
+
+     .gallery-container img:hover{
+        transform: scale(0.8) rotate(-15deg);
+         border-radius: 20px;
+         box-shadow: 0 32px 75px rgba(68,77,136, 0.2);
+     }
+
+     .galleryfull-img{
+        width: 100%;
+        height: 100vh;
+        background: rgba(0,0,0,0.9);
+        position: fixed;
+         top: 0;
+        left: 0;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        z-index: 100;
+         }
+
+     .galleryfull-img img{
+        width: 90%;
+        max-width: 500px;
+         }
+    
+
+         .galleryfull-img span{
+            position: absolute;
+            top:5%;
+            right:5%;
+            font-size: 30px;
+            color:white;
+            cursor: pointer;
+         }
+
+
+
+/* -----------------Contact form------------------------------------ */
+
+.contact-container{
+    width:100%;
+    height:120vh;
+    background-image: url('Image4.jpg');
+    color:#848484;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+.contact-title{
+text-align: right;
+margin-right: 19%;
+padding-top: 3%;
+padding-bottom: 1%;
+}
+
+.map{
+    position:absolute;
+    top:55%;
+    margin-left: 10%;
+}
+
+.contact-form{
+    position:absolute;
+    right:15%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+input[type=text],#email,select,textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+input[type=submit] {
+    background-color:#ED1944;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color:#b43952;
+  }
+
+  
+
+
+
+
+
+/* -----------------Testimonial ------------------------------------ */
+
+.rating .fa{
+    color: #ff523b;
+}
+
+
+.fa-star-half-stroke{
+    color: #ff523b;
+}
+
+.testimonial-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.testimonial-card{
+    flex-basis: 30%;
+min-width: 250px;
+margin-bottom:30px;
+}
+
+
+.testimonial-card img{
+    width:100%;
+}
+
+.testimonial-container{
+    max-width:1080px;
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+
+.testimonial{
+   padding-top: 100px;
+
+    }
+
+
+ .testimonial .testimonial-card{
+text-align: center;
+ padding: 40px 20px;
+ margin-right:10px;
+ margin-left:10px; 
+ box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+cursor: pointer;
+transition: transform 0.5s;   
+}
+
+
+.testimonial .testimonial-card img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+    }
+
+    .testimonial .testimonial-card:hover{
+        transform: translateY(-10px);
+    }
+
+
+    .fa-solid.fa-arrows-to-dot{
+        font-size: 34px;
+        color:#ff523b;
+    }
+
+    .testimonial-card p{
+     font-size: 12px;
+     margin: 12px 0px;
+color:#777;
+    }
+
+    /* ----------------------------------footer-------------------------------- */
+
+
+
+    .footer{
+        /* background:#ED1944; */
+        background:#15171A;
+        color:#8a8a8a;
+        font-size: 14px;
+        padding: 60px 0 20px;
+    }
+    
+    
+    
+    .container3{
+        max-width:1300px;
+        margin:auto;
+        padding-left:25px;
+        padding-right:25px;
+    }
+    
+    .footer-row{
+        display:flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .footer p{
+        color: #8a8a8a;
+     }
+    
+     .footer h3{
+        color: #fff;
+        margin-bottom: 20px;
+        font-family: 'Roboto Condensed', sans-serif; 
+    }
+    
+    .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width:250px;
+    margin-bottom:20px;
+    }
+    
+    .footer-col-1{
+    flex-basis: 30%;
+    
+    }
+    
+    .footer-col-2{
+        flex: 1;
+        text-align: center;
+    }
+    
+    .footer-col-2 img{
+        width: 20%;
+        margin-bottom: 20px;
+    }
+    
+    .footer-col-3, .footer-col-4{
+        flex-basis: 12%;
+        text-align:center;
+    }
+    
+    ul{
+        list-style-type:none;
+    }
+    
+    hr{
+        border:none;
+        background: #8a8a8a;
+        height: 1px;
+        margin: 20px 0;
+    }
+    
+    #copyright{
+        text-align:center;
+    }
+
+    .menubar img{
+        margin-left: 83%;
+    height:30px;
+    display:none;
+   
+    }
+
+/* ----------------------------media Query--------------------------------- */
+
+/* -----------------800px screen size-------------- */
+
+@media only screen and (max-width:800px){
+
+
+.navbar-list ul{
+position: absolute;
+top:170px;
+left:0;
+background: #333333;
+width:100%;
+overflow: hidden;
+
+}
+
+.navbar-list ul li{
+    display:block;
+    line-height: 3px;
+    margin-right:0px;
+    margin-left: 520px;
+    margin-top:10px;
+    margin-bottom:18px;
+    transition: max-height 0.2s;
+}
+
+.navbar-list ul li a{
+    color:white;
+}
+
+.menubar img{
+ display:block;
+ cursor: pointer;
+
+}
+
+.about-title p{
+    text-align: center;
+    padding: 15px;
+}
+
+.about-container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.about-box{
+    display: inline;
+    padding: 20px;
+    
+}
+
+
+
+.service-container{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.box{
+    display: inline;
+}
+
+   
+
+   .testimonial-container{
+    display: flex;
+align-items: center;
+justify-content: center;
+   }
+   
+
+.testimonial-box{
+    display:inline;
+    padding: 20px;
+
+}
+
+.testimonial-card{
+    flex-basis: 5%;
+}
+
+
+
+.contact-container{
+    height: 160vh;
+}
+
+.map{
+    width:50%;
+    height:80%;
+    margin-left: 10px;
+}
+
+.map iframe {
+    width: 50%;
+    height: 50vh;
+    margin-top:300px;
+
+}
+
+
+.contact-title{
+    position: absolute;
+    margin-top: 200px;
+    right:3%
+
+}
+.contact-form{
+    margin-top:300px ;
+    text-align: center;
+}
+
+
+
+
+
+}
+
+
+
+/* ------------------600px screen size---------------- */
+
+@media only screen and (max-width:600px){
+
+    .navbar-list ul li{
+        margin-left: 175px;
+    }
+
+
+    .about-card1{
+   width:auto;
+    }
+
+
+
+    .service-title h2{
+font-size: 30px;
+    }
+
+
+    .card{
+        width:auto;
+    }
+
+    
+.testimonial .testimonial-box{
+    display:inline;
+
+}
+
+.contact-container1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-title{
+    position: absolute;
+    margin-top:30%;
+    right:3%
+
+}
+.contact-form{
+    margin-top:200%;
+    text-align: centre;
+}
+
+.map{
+    height: 30vh;
+    width:50%;
+    margin-top:130% ;
+}
+
+.map iframe {
+position: absolute;
+ width:100%;
+height: 25vh;
+bottom:5%;
+left:4%;
+
+} 
+
+
+
+}
+
+
+
+
+
+
+    /* ---------------the End------------------- */

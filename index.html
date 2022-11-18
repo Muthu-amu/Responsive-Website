@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Responsive Webpage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="ResponsiveWebPage.CSS">
+        <script src="https://kit.fontawesome.com/7fefb53cc4.js" crossorigin="anonymous"></script>
+    </head>
+    
+    <body onload="slider()">
+       
+       <div class="container1"> 
+        <div class="head">
+
+        <div class="column-left1">
+            <ul> 
+            <li><a href="#"><i class="fa-regular fa-envelope"></i><input type="email" name="email" id="mail" placeholder="Enter your Email"></a></li>
+            <br>
+            <li><a href="#"><i class="fa-sharp fa-solid fa-phone-volume"></i><span id="mobile-no">+91 XXXXXXXXXX </span></a></li>
+        </ul>
+        </div>
+
+        <div class="icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+            
+         </div>
+        </div>
+
+
+
+       <!-- ------------Navbar-------------- -->
+
+       <div class="container2">
+        <div class="navbar">
+      
+            <img src="Image1.webp" class="logo">
+            <div class="menubar"><img src="Image20.png" onclick="menuClick()"></div>
+            
+                    <div class="navbar-list">
+                       <ul id="menuItems">
+                           <li><a href="ResponsiveWebPage.html">Home</a></li>
+                           <li><a href="#About">About Us</a></li>
+                           <li><a href="#Services">Services</a></li>
+                           <li><a href="#Gallery">Gallery</a></li>
+                           <li><a href="contactUs.html">Contact Us</a></li>
+                         </ul>
+                       </div>
+
+                    </div>
+                </div>
+        
+
+       <!-------------- Slider ---------->
+       
+       <div class="container-slider">
+        <div class="slider">
+        <img src="Image15.jpg" id="slideImg">
+        </div>
+    </div>
+
+
+       
+
+<!------------About Us-------------------------------------->
+
+
+<div class="about-container" >
+    <div class="about">
+
+        <div class="about-title" id="About">
+            <h2>About Us</h2>
+        </div>
+
+        <p>Our experts possess deep domain and technical knowledge deliver reliable and outstanding transformational solutions. We work with care and diligence to make each of our client a success whether they are small or large in scale</p>
+        <br><br>
+
+<div class="about-card">
+
+    <div class="about-container1">
+        <div class="about-box">
+            <div class="about-card1">
+                <img src="Image5.png" class="logo">
+                <h5>Our Vision</h5>
+                <div class="about-para">
+                    <p>We engage ourselves throughout the life cycle and provide convergent solutions to help our customers in achieving their business needs and goals.
+                    </p>
+                    <p style="text-align:centre;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+    
+            <div class="about-card1">
+                <img src="Image6.png" class="logo">
+                <h5>Our Approach</h5>
+                <div class="about-para">
+                    <p>Transparent communication on your ideas, smooth workflow through agile methodology and innovative planning strategy helps you to grow extraordinary.
+                    </p>
+                    <p style="text-align:centre;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+    
+            <div class="about-card1">
+                <img src="Image7.png" class="logo">
+                <h5>Our Services</h5>
+                <div class="about-para">
+                    <p>We offer end-to-end solutions on design, development and managed services across Cloud, Analytics, Big Data, DevOps and Chatbot technologies.
+                    </p>
+                    <p style="text-align:centre;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</div>
+    </div>
+</div>
+
+       <!------------ Our services ---------------------->
+
+       
+
+            <div class="service-container" id="Services">
+                <div class="service-container1">
+
+                <div class="service-title">
+                    <h2>Our Services</h2>
+                </div>
+                <div class="box">
+                    <div class="card">
+                        <i class="fa-sharp fa-solid fa-shield-halved"></i>
+                        <h5>Security Engineering</h5>
+                        <div class="para">
+                            <p>Identify and provide right solutions on security risks with proven security testing for your applications.
+                            </p>
+                            <p style="text-align:centre;">
+                                <a class="button" href="#">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <img src="Image2.png" class="logo">
+                        <h5>E-Commerce Services</h5>
+                        <div class="para">
+                            <p>We can complete the e-commerce website development and design without much hassle.
+                            </p>
+                            <p style="text-align:centre;">
+                                <a class="button" href="#">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <img src="Image3.png" class="logo">
+                        <h5>Web Development</h5>
+                        <div class="para">
+                            <p>Every website should be built with two primary goals: Firstly, it needs
+                                to work across all devices. Secondly, it needs to be fast as possible.
+                            </p>
+                            <p style="text-align:centre;">
+                                <a class="button" href="#">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+
+
+
+
+            <!-------------  Gallery ----------------->
+
+
+            <div class="gallery service-title"  id="Gallery">
+                <h2>Gallery</h2>
+            </div>
+
+            <div class="galleryfull-img" id="galleryFullImg">
+                <img src="Image8.jpg" id="fullImg">
+                <span onclick="closeFullImg()">X</span>
+            </div>
+
+<div class="gallery-container">
+
+<img src="Image8.jpg" onclick="openFullImg(this.src)">
+<img src="Image9.jpg" onclick="openFullImg(this.src)">
+<img src="Image10.jpg" onclick="openFullImg(this.src)">
+<img src="Image11.jpg" onclick="openFullImg(this.src)">
+<img src="Image12.jpg" onclick="openFullImg(this.src)">
+<img src="Image13.jpg" onclick="openFullImg(this.src)">
+
+</div>
+
+
+
+
+            <!-- -----------------testimonial------------------- -->
+
+
+            <div class="testimonial">
+                <div class="testimonial-container">
+                <div class="testimonial-box">
+                <div class="testimonial-card">
+                    <i class="fa-solid fa-arrows-to-dot"></i>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+                <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                </div>
+                <img src="Image14.jpg">
+                <h3>Sam</h3>
+                </div>
+
+                <div class="testimonial-card">
+                    <i class="fa-solid fa-arrows-to-dot"></i>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+                    <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+                    <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="Image14.jpg">
+                    <h3>Mario</h3>
+                    </div>
+
+
+                    <div class="testimonial-card">
+                        <i class="fa-solid fa-arrows-to-dot"></i>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+                        <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        </div>
+                        <img src="Image14.jpg">
+                        <h3>Ronald</h3>
+                        </div>
+
+
+                </div>
+                </div>
+                </div>
+
+<!-- ----------------------------------footer-------------------------------- -->
+
+<div class="footer">
+    <div class="container3">
+        <div class="footer-row">
+
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download app for android and ios mobile phone.</p>
+            </div>
+
+            <div class="footer-col-2">
+                <img src="Image1.webp">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid at eos, fugiat, perferendis maiores eaque quis earum repellat reprehenderit temporibus consequuntur, necessitatibus eum! Quo repudiandae consequuntur aspernatur dolorem velit facere.</p>
+            </div>
+
+            <div class="footer-col-3">
+                <h3>QUICK LINKS</h3>
+                <ul>
+                    <li>Blog</li>
+                    <li>Track Order</li>
+                    <li>Terms & Conditions</li>
+                    <li>Return Policy</li>
+                </ul>
+            </div>
+
+            <div class="footer-col-4">
+                <h3>CONNECT WITH US</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+
+        </div>
+        <hr>
+        <p id="copyright"> Copyright@ 2022 Responsive Web page</p>
+    </div>
+</div>
+
+
+
+
+
+<script>
+
+
+var slideImg = document.getElementById("slideImg");
+
+var images = new Array (
+                  "Image15.jpg",
+                  "Image16.jpg", 
+                  "Image17.jpg", 
+                  "Image18.jpg",
+                  "Image19.jpg"
+         );
+
+var len = images.length;
+var i = 0;
+
+function slider(){
+    if (i > len-1) {
+        i = 0;
+}
+slideImg.src = images[i];
+i++;
+setTimeout('slider()',3000);
+
+}
+
+</script>
+
+<!-- -----------------------gallery------------------------------------- -->
+ 
+<script>
+var galleryFullImg = document.getElementById("galleryFullImg"); 
+var fullImg = document.getElementById("fullImg");
+
+function openFullImg(pic){
+galleryFullImg.style.display = "flex";
+
+fullImg.src = pic;
+
+}
+
+function closeFullImg(){
+galleryFullImg.style.display = "none";
+
+}
+
+</script>
+
+
+<!-- --------------clicking menubar------------------ -->
+
+<script>
+var menuItems = document.getElementById("menuItems");
+menuItems.style.maxHeight = "0px";
+
+function menuClick(){
+    if (menuItems.style.maxHeight == "0px") 
+    {
+
+        menuItems.style.maxHeight = "200px"
+    } 
+    else 
+    {
+        menuItems.style.maxHeight = "0px"
+    }
+
+}
+
+
+</script>
+
+
+    </body>
+</html>
