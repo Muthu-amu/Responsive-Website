@@ -803,10 +803,29 @@ left:4%;
         text-align: center;
     }
 
+    .navbar-list ul li {
+        margin-left: 10px;
+    }
+    
     .navbar-list ul{
         z-index: 1;
     }
 
+    .contact-title h1{
+   margin-right: 10px;
+}
+    
+    .contact-form{
+        top:10%;
+      transform: translateY(-70%);
+      left:5%;
+    }
+
+    .map{
+        top:105%;
+        transform: translateY(-80%);
+         margin-right:40px;
+    }
 
 
 }
