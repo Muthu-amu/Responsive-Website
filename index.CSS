@@ -602,7 +602,11 @@ color:#777;
 
 @media only screen and (max-width:800px){
 
-
+.icons{
+        left: 87%;
+        word-spacing: 5px;
+    }
+    
 .navbar-list ul{
 position: absolute;
 top:170px;
@@ -784,9 +788,29 @@ left:4%;
 
 } 
 
+}
+
+
+/* ------------------360px screen size---------------- */
+
+@media only screen and (max-width:360px){
+
+    .icons{
+        left: 78%;
+    }
+
+    .footer-col-1 h3, p{
+        text-align: center;
+    }
+
+    .navbar-list ul{
+        z-index: 1;
+    }
+
 
 
 }
+
 
 
 
