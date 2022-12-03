@@ -614,6 +614,7 @@ left:0;
 background: #333333;
 width:100%;
 overflow: hidden;
+    z-index: 1;
 
 }
 
@@ -765,12 +766,17 @@ font-size: 30px;
 .contact-title{
     position: absolute;
     margin-top:30%;
-    right:3%
+    right:10%
 
 }
+    
+    
 .contact-form{
-    margin-top:200%;
+    transform: translateY(-1%);
+    transform: translatex(-12%);
+    margin-top:150%;
     text-align: centre;
+    
 }
 
 .map{
@@ -787,6 +793,10 @@ bottom:5%;
 left:4%;
 
 } 
+    
+.contact-container{
+    height:190vh;
+}
 
 }
 
@@ -807,27 +817,26 @@ left:4%;
         margin-left: 10px;
     }
     
-    .navbar-list ul{
-        z-index: 1;
-    }
-
     .contact-title{
+        text-align: center;
         margin-top:35px;
+        margin-left: 10px;
     }
     
     .contact-title h1{
-   margin-right: 2px;
+   margin-right: 0px;
+   margin-left: 0px;
 }
     
     .contact-form{
         top:10%;
-      transform: translateY(-70%);
+      transform: translateY(-45%);
       left:5%;
     }
 
     .map{
         top:105%;
-        transform: translateY(-80%);
+        transform: translateY(-38%);
          margin-right:40px;
     }
 
