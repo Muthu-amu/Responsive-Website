@@ -811,8 +811,12 @@ left:4%;
         z-index: 1;
     }
 
+    .contact-title{
+        margin-top:35px;
+    }
+    
     .contact-title h1{
-   margin-right: 10px;
+   margin-right: 2px;
 }
     
     .contact-form{
