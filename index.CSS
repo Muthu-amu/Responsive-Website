@@ -729,6 +729,7 @@ justify-content: center;
 
 /* ------------------600px screen size---------------- */
 
+
 @media only screen and (max-width:600px){
 
     .navbar-list ul li{
@@ -767,10 +768,10 @@ font-size: 30px;
     position: absolute;
     margin-top:30%;
     right:10%
-
+    
 }
-    
-    
+
+
 .contact-form{
     transform: translateY(-1%);
     transform: translatex(-12%);
@@ -782,7 +783,7 @@ font-size: 30px;
 .map{
     height: 30vh;
     width:50%;
-    margin-top:130% ;
+    margin-top:110% ;
 }
 
 .map iframe {
@@ -793,10 +794,12 @@ bottom:5%;
 left:4%;
 
 } 
-    
+
 .contact-container{
     height:190vh;
 }
+
+
 
 }
 
